@@ -57,10 +57,6 @@ class ViewController: UIViewController {
         webView.goForward()
     }
     
-    @IBAction func addNewPage(_ sender: Any) {
-        
-    }
-    
     func addGestureBack() {
         let swipe = UISwipeGestureRecognizer(target: self,
                                              action: #selector(backPage))
